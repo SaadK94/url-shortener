@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UrlInput.vue matches the snapshot 1`] = `
+<div
+  data-v-app=""
+>
+  
+  <form>
+    <input
+      class=""
+      data-jest-input=""
+      placeholder="Paste your URL here"
+      type="text"
+    />
+    <button
+      class="disabled"
+      data-jest-button=""
+      disabled=""
+      type="submit"
+    >
+       Shorten 
+    </button>
+  </form>
+  <!--v-if-->
+  
+</div>
+`;

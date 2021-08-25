@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UrlItem.vue matches the snapshot 1`] = `
+<div
+  class="container-outer"
+>
+  <div
+    class="container-inner"
+  >
+    <a
+      class="full-url"
+      data-jest-full-url=""
+      href="https://www.google.co.uk"
+      target="_blank"
+    >
+      https://www.google.co.uk
+    </a>
+    <h4
+      class="short-url"
+      data-jest-short-url=""
+    >
+      https://pbid.io/abcd1234
+    </h4>
+  </div>
+  <div
+    class="buttons"
+  >
+    <button
+      class="copy"
+      data-jest-copy=""
+    >
+      Copy
+    </button>
+    <button
+      class="delete"
+      data-jest-delete=""
+    >
+      Delete
+    </button>
+  </div>
+</div>
+`;

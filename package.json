@@ -1,0 +1,22 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev:client": "cd client && npm run serve",
+    "dev:server": "cd server && npm run start:dev",
+    "dev": "run-p dev:*",
+    "test:client": "cd client && npm run test:unit",
+    "test:server": "cd server && npm test",
+    "test": "run-p test:*",
+    "install:client": "cd client && npm install",
+    "install:server": "cd server && npm install",
+    "postinstall": "run-p install:*"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  },
+  "dependencies": {}
+}

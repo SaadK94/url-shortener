@@ -1,0 +1,26 @@
+version: "2"
+
+services:
+  server:
+    environment:
+      NODE_ENV: production
+      MONGO_URL: mongodb://database:27017/url
+    build:
+      dockerfile: Dockerfile
+      context: ./server
+    ports:
+      - "3000:3000"
+    depends_on:
+      - database
+
+  client:
+    build:
+      dockerfile: Dockerfile
+      context: ./client
+    ports:
+      - "8080:8080"
+    depends_on:
+      - server
+
+  database:
+    image: mongo

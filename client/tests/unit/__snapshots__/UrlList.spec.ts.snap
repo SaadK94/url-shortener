@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UrlList.vue matches the snapshot 1`] = `
+<div
+  data-v-app=""
+>
+  
+  <url-item-stub
+    class="item"
+    data-jest-item=""
+    fullurl="https://www.google.co.uk/"
+    id="1"
+    shorturl="https://pbid.io/abcd1234"
+  />
+  <url-item-stub
+    class="item"
+    data-jest-item=""
+    fullurl="https://primarybid.com/home/"
+    id="1"
+    shorturl="https://pbid.io/abcd9876"
+  />
+  
+</div>
+`;
